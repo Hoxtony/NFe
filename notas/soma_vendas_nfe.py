@@ -2,7 +2,7 @@ import os
 import xmltodict
 from datetime import datetime
 
-caminho_pasta = ""
+caminho_pasta = "C:\\Users\\La Pimienta\\Documents\\Leitor xml\\notas\\XMLS"
 
 if not os.path.exists(caminho_pasta):
     print("🚨 ERRO: Caminho da pasta não encontrado.")

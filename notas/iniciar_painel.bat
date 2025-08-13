@@ -2,10 +2,10 @@
 setlocal enabledelayedexpansion
 
 :: Caminho para o Python
-set "PYTHON_DIR=C:\Users\AppData\Local\Programs\Python\Python313"
+set "PYTHON_DIR=C:\Users\La Pimienta\AppData\Local\Programs\Python\Python313"
 set "PYTHON_EXE=%PYTHON_DIR%\python.exe"
 set "PYTHONW_EXE=%PYTHON_DIR%\pythonw.exe"
-set "SCRIPT_PATH= CAMINHO PARA O PAINEL"
+set "SCRIPT_PATH=C:\Users\La Pimienta\Documents\Leitor xml\notas\painel_estilizado.pyw"
 
 :: Verificar se o Python existe
 if not exist "%PYTHON_EXE%" (
